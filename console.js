@@ -6,7 +6,7 @@ const commands = {
   },
   help: {
     cmd: 'help',
-    res: 'help:<span></span> Help command to navigate through the website.<br>whoami  : Small description about me.'
+    res: 'help: Help command to navigate through the website.<br>whoami  : Small description about me.<br>date : Shows the current date and time.<br>'
   },
   date: {
     cmd: 'date',

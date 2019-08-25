@@ -48,7 +48,7 @@ ul, li, ol {
 	list-style-type: none;
 }
 a {
-	color: inherit;
+	/* color: inherit; */
 	text-decoration: underline;
 }
 .pointer {

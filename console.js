@@ -14,7 +14,7 @@ const commands = {
   }
 }
 
-const prephrase = '<span class="green">root</span><span class="blue">@</span><span class="green">website</span> <span class="red">$</span> ';
+const prephrase = '<span class="green">root</span><span class="blue">@</span><span class="green">website</span><span class="red">$</span> ';
 
 var form = $('<div>' + prephrase + '<form id="form"><input type="text" class="nostyle" autofocus /></form>').appendTo('#content');
 

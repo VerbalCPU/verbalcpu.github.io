@@ -6,7 +6,7 @@ const commands = {
   },
   help: {
     cmd: 'help',
-    res: '<table><tr><td><li>help </li></td><td>Help command to navigate through the website.</td></tr><tr><td><li>whoami &nbsp;&nbsp; </td></li><td>Small description about me.</td></tr><td><li>date &nbsp;&nbsp; </td></li><td>Shows the current date and time.</td></tr><td><li>cat &nbsp;&nbsp; </td></li><td>Display a file.</td></tr><td><li>ls &nbsp;&nbsp; </td></li><td>List information about files.</td></tr></table>'
+    res: '<table><tr><td><li>help </li></td><td>Help command to navigate through the website.</td></tr><tr><td><li>whoami &nbsp;&nbsp; </td></li><td>Small description about me.</td></tr><td><li>date &nbsp;&nbsp; </td></li><td>Shows the current date and time.</td></tr><td><li>cat &nbsp;&nbsp; </td></li><td>Display a file.</td></tr><td><li>ls &nbsp;&nbsp; </td></li><td>List information about files.</td></tr><td><li>clear &nbsp;&nbsp; </td></li><td>Clears the console.</td></tr></table>'
   },
   date: {
     cmd: 'date',
@@ -20,7 +20,7 @@ const commands = {
     cmd: 'ls',
     res: 'CV.txt &nbsp;&nbsp; linkedin.txt &nbsp;&nbsp; github.txt '
   }
-}
+};
 
 const prephrase = '<span class="green">root</span><span class="blue">@</span><span class="green">website</span><span class="red">$</span> ';
 

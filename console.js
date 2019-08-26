@@ -6,11 +6,16 @@ const commands = {
   },
   help: {
     cmd: 'help',
-    res: '<ul><li>help : Help command to navigate through the website.</li><li>whoami : Small description about me.</li><li>date : Shows the current date and time.</li></ul>'
+    res: '<table><tr><td><li>help </li></td><td>Help command to navigate through the website.</td></tr><tr><td><li>whoami &nbsp;&nbsp; </td></li><td>Small description about me.</td></tr><td><li>date &nbsp;&nbsp; </td></li><td>Shows the current date and time.</td></tr><td><li>cat &nbsp;&nbsp; </td></li><td>Display a file.</td></tr></table>'
+
   },
   date: {
     cmd: 'date',
     res: Date()
+  },
+  cat: {
+    cmd: 'cat',
+    res: 'Error: you did not specify a file'
   }
 }
 

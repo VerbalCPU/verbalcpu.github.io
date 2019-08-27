@@ -48,6 +48,7 @@ $('#content').niceScroll({
   }
 });
 
+
 $('form').on('submit', function(e) {
   e.preventDefault();
   try {

@@ -125,7 +125,7 @@ user-select: none;
 }
 table
 {
-    border-collapse: collapse; 
+    border-collapse: collapse;
 }
 .icon-middle, .icon-middle + * {
     display: inline-block;

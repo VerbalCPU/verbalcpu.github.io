@@ -34,8 +34,6 @@ function launchCommand(command) {
   $('<div>' + prephrase + command.cmd + '<p>' + command.res + '</p></div>').insertBefore(form)
 }
 
-
-
 $('#content').niceScroll({
   cursorcolor: '#303030',
   cursorborder: '0px none',

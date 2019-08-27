@@ -18,11 +18,11 @@ const commands = {
   },
   linkedin: {
     cmd: 'linkedin',
-    res:  'My Linkedin profile.'
+    res:  '<a href="https://www.linkedin.com/in/emmanouil-chalvatzopoulos-70a65318b" target="_blank">Click here to see my Linkedin profile.</a>'
   },
   github: {
     cmd: 'github',
-    res:  'My Github repositories.'
+    res:  '<a href="https://github.com/VerbalCPU" target="_blank">My Github repositories.</a>'
   }
 };
 

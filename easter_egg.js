@@ -7,8 +7,6 @@ window.addEventListener('keyup',(e)=>{
   pressed.splice(-secretCode.length-1,pressed.length - secretCode.length);
 
   if(pressed.join('').includes(secretCode)){
-    console.log("done");
     window.location.href = "green_rain/index.html";
-
   }
 });

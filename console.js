@@ -6,7 +6,7 @@ const commands = {
   },
   help: {
     cmd: 'help',
-    res: '<table><tr><td><li>help </li></td><td>Help command to navigate through the website.</td></tr><tr><td><li>whoami &nbsp;&nbsp; </td></li><td>Small description about me.</td></tr><td><li>date &nbsp;&nbsp; </td></li><td>Shows the current date and time.</td></tr><td><li>github &nbsp;&nbsp; </td></li><td>A link to my Github repositories.</td></tr><td><li>clear &nbsp;&nbsp; </td></li><td>Clears the console.</td></tr><td><li>linkedin &nbsp;&nbsp; </td></li><td>A link to my Linkedin account.</td></tr><td><li>cv &nbsp;&nbsp; </td></li><td>My personal curriculum vitae.</td></tr></table>'
+    res: '<div style="overflow-x:auto;"><table><tr><td><li>help </li></td><td>Help command to navigate through the website.</td></tr><tr><td><li>whoami &nbsp;&nbsp; </td></li><td>Small description about me.</td></tr><td><li>date &nbsp;&nbsp; </td></li><td>Shows the current date and time.</td></tr><td><li>github &nbsp;&nbsp; </td></li><td>A link to my Github repositories.</td></tr><td><li>clear &nbsp;&nbsp; </td></li><td>Clears the console.</td></tr><td><li>linkedin &nbsp;&nbsp; </td></li><td>A link to my Linkedin account.</td></tr><td><li>cv &nbsp;&nbsp; </td></li><td>My personal curriculum vitae.</td></tr></table></div>'
   },
   date: {
     cmd: 'date',

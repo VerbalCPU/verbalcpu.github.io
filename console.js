@@ -1,3 +1,8 @@
+const github_links = '<a href="https://github.com/VerbalCPU/Case_1">Case 1</a></br>Computational Data Analysis Case 1. A data analysis project that required the use of machine learning techniques.</br></br><a href="https://github.com/VerbalCPU/Case_2">Case 2</a></br>Computational Data Analysis Case 2. A data analysis project that required the use of machine learning techniques.</br></br><a href="https://github.com/VerbalCPU/DBSCAN_python">DBSCAN</a></br>Density-based spatial clustering of applications with noise (DBSCAN) implementation in Python.</br></br><a href="https://github.com/VerbalCPU/Morning_Routine_App">Morning Routine App</a></br>The final project for the course 02808 Personal Data Interaction for Mobile and Wearables. An app written in React-Native and Expo.</br></br><a href="https://github.com/VerbalCPU/Sentiment-Analysis-Classifier">Sentiment Analysis Classifier</a></br>A Sentiment Analysis Classifier written in Python using the Pytorch library.</br></br><a href="https://github.com/VerbalCPU/TodoListNode.js">TodoListNode</a></br>A Todo list written in Node.js.</br></br><a href="https://github.com/VerbalCPU/twitter-bot-dm">Twitter Bot</a></br>Over-simplified Direct Message Twitter Bot using Javascript.</br>';
+
+const help_cmd = '<div style="overflow-x:auto;"><table><tr><td><li>help </li></td><td>Help command to navigate through the website.</td></tr><tr><td><li>whoami &nbsp;&nbsp; </td></li><td>Small description about me.</td></tr><td><li>date &nbsp;&nbsp; </td></li><td>Shows the current date and time.</td></tr><td><li>github &nbsp;&nbsp; </td></li><td>Links and descriptions of my Github repositories.</td></tr><td><li>clear &nbsp;&nbsp; </td></li><td>Clears the console.</td></tr><td><li>linkedin &nbsp;&nbsp; </td></li><td>A link to my Linkedin account.</td></tr><td><li>cv &nbsp;&nbsp; </td></li><td>My personal curriculum vitae.</td></tr></table></div>';
+
+
 const commands = {
 
   whoami: {
@@ -6,7 +11,7 @@ const commands = {
   },
   help: {
     cmd: 'help',
-    res: '<div style="overflow-x:auto;"><table><tr><td><li>help </li></td><td>Help command to navigate through the website.</td></tr><tr><td><li>whoami &nbsp;&nbsp; </td></li><td>Small description about me.</td></tr><td><li>date &nbsp;&nbsp; </td></li><td>Shows the current date and time.</td></tr><td><li>github &nbsp;&nbsp; </td></li><td>A link to my Github repositories.</td></tr><td><li>clear &nbsp;&nbsp; </td></li><td>Clears the console.</td></tr><td><li>linkedin &nbsp;&nbsp; </td></li><td>A link to my Linkedin account.</td></tr><td><li>cv &nbsp;&nbsp; </td></li><td>My personal curriculum vitae.</td></tr></table></div>'
+    res: help_cmd
   },
   date: {
     cmd: 'date',
@@ -22,9 +27,11 @@ const commands = {
   },
   github: {
     cmd: 'github',
-    res:  '<a href="https://github.com/VerbalCPU" target="_blank">My Github repositories.</a>'
+    res: github_links
   }
 };
+
+
 
 const prephrase = '<span class="green">root</span><span class="blue">@</span><span class="green">website</span><span class="red">$</span> ';
 

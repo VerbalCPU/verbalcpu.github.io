@@ -2,10 +2,7 @@
 
 body {
   background: url(background.png);
-  /*
-	https://unsplash.com/@marceloquinan?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge
-	Download free do whatever you want high-resolution photos from Marcelo Quinan
-	*/
+
   background-position: center;
   background-size: cover;
   color: white;

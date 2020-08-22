@@ -8,7 +8,7 @@ const commands = {
 
   whoami: {
     cmd: 'whoami',
-    res: 'Hey, my name is Emmanouil Chalvatzopoulos. I am from Greece and I studied Computer Engineering. Currently I study Data science at the <a href="https://www.dtu.dk/">Technical University of Denmark.</a>'
+    res: 'Hey, my name is Emmanouil Chalvatzopoulos. I am from Greece and I studied Computer Engineering. Currently I am doing my Master in Human Centered Artificial Inteligence at the <href="https://www.dtu.dk/">Technical University of Denmark.</a>'
   },
   help: {
     cmd: 'help',

@@ -20,7 +20,7 @@ const commands = {
   },
   cv: {
     cmd: 'cv',
-    res:  '<a href="https://www.dropbox.com/s/m5dqey6imjc3vrz/Emmanouil%20Chalvatzopoulos%20CV.pdf?dl=0" target="_blank">My personal curriculum vitae.</a>'
+    res:  '<a href="https://www.dropbox.com/s/an0ip35ilahr8ho/Emmanouil%20Chalvatzopoulos%20CV.pdf?dl=0" target="_blank">My personal curriculum vitae.</a>'
   },
   linkedin: {
     cmd: 'linkedin',
